@@ -7,7 +7,7 @@ from time import sleep
 MQTT_Broker = "localhost" #ten may chu MQTT
 MQTT_Port = 1883          #port mac dinh cua MQTT
 Keep_Alive_Interval = 45  #Thoi gian giua cac lan gui goi tin 
-MQTT_Topic = "home/ss2"
+MQTT_Topic = "home/ss"
 
 #====================================================
 # Ham ket noi den may chu MQTT
@@ -49,7 +49,7 @@ def publish_Fake_Sensor_Values_to_MQTT():
     Wind_Speed_Fake = speed[random.randint(1,4)]
     Wind_Direction_Fake = direct[random.randint(1,4)]
     Sensor_data = {}
-    Sensor_data['Sensor_ID'] = "DHT-11"
+    Sensor_data['Sensor_ID'] = "DHT-12"
     Sensor_data['Longtitude'] = Longtitude_Fake
     Sensor_data['Lathtitude'] = Lathtitude_Fake
     Sensor_data['Humidity'] = Humidity_Fake_Value

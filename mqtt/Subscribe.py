@@ -7,7 +7,7 @@ from Get_Data_to_DB import *
 MQTT_Broker = "localhost"
 MQTT_Port = 1883
 Keep_Alive_Interval = 45
-MQTT_Topic = "test"
+MQTT_Topic = "home/#"
 
 #Connect MQTT broker
 def on_connect(client, userdata, flags, rc):

@@ -7,7 +7,7 @@ from time import sleep
 MQTT_Broker = "localhost" #ten may chu MQTT
 MQTT_Port = 1883          #port mac dinh cua MQTT
 Keep_Alive_Interval = 45  #Thoi gian giua cac lan gui goi tin 
-MQTT_Topic = "home/ss2"
+MQTT_Topic = "home/ss1"
 
 #====================================================
 # Ham ket noi den may chu MQTT
